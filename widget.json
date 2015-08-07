@@ -1,0 +1,14 @@
+{
+<<<<<<< HEAD
+  "name": "mail-and-messages",
+  "description": "Displays number of unread mail and messages, click to open",
+  "author": "Travis Triglianos",
+  "email": "travtrigs@me.com"
+}
+=======
+  "name": "Mail and Messages",
+  "description": "Displays number of unread mail and messages, and provides shortcuts to open those apps",
+  "author": "Travis Triglianos",
+  "email": "travtrigs@me.com"
+}
+>>>>>>> origin/master
