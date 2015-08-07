@@ -1,1 +1,0 @@
-sqlite3 /private/var/folders/7v/9v0pcs8j5lj62sp7mdjnzgmr0000gn/0/com.apple.notificationcenter/db/db < open.txt
