@@ -1,6 +1,6 @@
 {
   "name": "Mail and Messages",
-  "description": "Displays number of unread mail and messages, and provides shortcuts to open those apps"
-  "author": "Travis Triglianos"
+  "description": "Displays number of unread mail and messages, and provides shortcuts to open those apps",
+  "author": "Travis Triglianos",
   "email": "travtrigs@me.com"
 }
