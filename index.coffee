@@ -1,6 +1,6 @@
-command: ''
+command: 'cd ~/Library/Application\\ Support/Übersicht/widgets/mail-and-messages.widget/ && ./open.sh'
 
-refreshFrequency: 10000
+refreshFrequency: 1000
 
 style: """
   font-family: Helvetica Neue
@@ -48,38 +48,19 @@ style: """
     right: 1px
     top: 2px
 
-    
-  .buttons
-    position: absolute
-    top: 83px
-    left: 1251px
-    transform:scale(1, 1)
-    height: 30px
-    width: 150px
-
-  .button
-    height: 30px
-    width: 66px
-    display: inline-block
 """
 
 render: ->"""
 <table>
-  <th class="mail">
+  <th class="mail" id="mail">
     <img src="mail-and-messages.widget/mail.png">
     <a class="mail-count"></a>
   </th>
-  <th class="messages">
+  <th class="messages" id="messages">
     <img src="mail-and-messages.widget/messages.png">
     <a class="messages-count"></a>
   </th>
 </table>
-<div class="container">
-  <ul class="buttons">
-    <li class="button" id="mail"></li>
-    <li class="button" id="messages"></li>
-  </ul>
-</div>
 
 
 """
